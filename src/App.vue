@@ -18,17 +18,17 @@ import { RouterLink, RouterView } from "vue-router";
     <div class="collapse navbar-collapse p-2 container" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active mx-2">
-          <RouterLink :to="{name: 'customer'}"  class="nav-link"
+          <RouterLink :to="{name: 'customer'}"  class="nav-link ll"
             ><i class="fa-solid fa-users mx-2"></i> Customers</RouterLink
           >
         </li>
         <li class="nav-item mx-2">
-          <RouterLink :to="{name: 'product'}"  class="nav-link"
+          <RouterLink :to="{name: 'product'}"  class="nav-link ll"
             ><i class="fa-solid fa-box-open mx-2"></i>Products</RouterLink
           >
         </li>
         <li class="nav-item mx-2">
-          <RouterLink :to="{name: 'order'}"  class="nav-link"
+          <RouterLink :to="{name: 'order'}"  class="nav-link ll"
             ><i class="fa-solid fa-cart-shopping mx-2"></i>Orders</RouterLink
           >
         </li>
@@ -38,4 +38,8 @@ import { RouterLink, RouterView } from "vue-router";
   <RouterView />
 </template>
 
-<style scoped></style>
+<style scoped>
+.ll:focus{
+  color: blue;
+}
+</style>
