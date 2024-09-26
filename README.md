@@ -12,15 +12,17 @@ Ce projet consiste à developper une application frontend dynamique pour l'entre
 
 - Clonez le repository :
 
-        git clone https://github.com/Mangassouba/commcercial-management.git
+        https://github.com/Mbaye01/Gestion-Commande-Front-End.git
 
 - Accédez au dossier du projet
 
-        cd commcercial-management
+       cd Gestion-Commande-Front-End
 
-- Installez les dépendances : 
+- Installez les dépendances :
 
-        npm install
+```bash
+npm install
+```
 
 - Lancez l'application en mode développement :
 
@@ -32,4 +34,4 @@ Vercel
 
 ## Auteur
 
-Hama Houllah Mangasouba
+[Mbaye Abdellahi Kalidou](https://github.com/Mbaye01/Gestion-Commande-Front-End.git)
